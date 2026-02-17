@@ -1,0 +1,4 @@
+# Material for fire.obj
+newmtl FIRE3_blinnSG
+Kd 1.0 1.0 1.0
+map_Kd textures/powerUps/fire/fire.png

@@ -1,0 +1,19 @@
+# Definição do material para o seu escudo
+newmtl ShieldMat
+
+# Cor Ambiente (Ka): (Mantido para luz ambiente)
+Ka 0.100 0.080 0.040
+
+# Cor Difusa (Kd): O valor numérico será substituído pela textura.
+Kd 0.600 0.400 0.200
+
+# Cor Especular (Ks): (Mantido para o brilho metálico)
+Ks 1.000 1.000 1.000
+Ns 250.0
+d 1.0
+illum 2
+
+# === MAPA DE TEXTURA ADICIONADO ===
+# map_Kd: Mapeamento de Textura Difusa/Albedo
+# O caminho deve ser relativo à pasta onde o .obj e .mtl estão localizados.
+map_Kd textures/powerUps/shield/shield.jpg
